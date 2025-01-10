@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="style.css">
+<head>
+ <!-- script javascript     -->
+  <script>
+    function funcionnom() {
+      var nom = document.getElementById("nombre").value;
+      var apellido = document.getElementById("congnom").value;
+      alert('bienvenido ' + nom + ' ' + apellido);
+    }
+  </script>
+</head>
+<body >
+  <h1 class="azul">Practica bloque 3</h1>
+  Introduce tu nombre:  <input type="text" id="nombre"> 
+  Introduce apellido 1: <input type="text" id="congnom" onblur="funcionnom()">
+</body>
+</html>
